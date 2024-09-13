@@ -1,0 +1,132 @@
+html {
+    scroll-behavior: smooth;
+}
+
+::selection {
+    background: rgba(198, 39, 18, 0.7);
+    opacity: 0.8;
+}
+
+body {
+    animation: fadeInAnimation ease-in-out 1.7s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 50px;
+    background-color: #FFF;
+}
+
+ul {
+    display: flex;
+    gap: 20px;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: #153448;
+}
+
+nav h3{
+    font-size: 30px;
+}
+
+nav div > a {
+    margin-left: 10px;
+}
+
+#hero {
+    color: white;
+    padding: 25px 0;
+    width: 100%;
+    font-size: 37px;
+    text-align: center;
+}
+
+.string_hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('pictures/string/string_hero.jpg'); background-attachment: fixed; background-size: contain, cover; width: 100%; height: 100%;
+}
+
+.brass_hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url('pictures/brass/brass_hero.jpg'); background-attachment: fixed; background-size: contain, cover; width: 100%; height: 100%;
+}
+
+.percussion_hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url('pictures/percussion/percussion_hero.jpg'); background-attachment: fixed; background-size: contain, cover; width: 100%; height: 100%;
+}
+
+.woodwind_hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1)), url('pictures/woodwind/woodwind_hero.jpg'); background-attachment: fixed; background-size: contain, cover; width: 100%; height: 100%;
+}
+
+.card img {
+    height: 200px;
+    width: 200px;
+    margin-bottom: 30px;
+}
+
+.product_title {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.shopping {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 80px;
+    justify-content: space-around;
+    margin: 50px 50px 80px 50px;
+}
+
+.cart {
+    background-color: #ffd139;;
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 75px;
+    margin-top: 20px;
+}
+
+.cart:active {
+    background-color: #e3a216;
+}
+
+.rating {
+    color: #ffd139;
+    margin: 0;
+}
+
+.product_price {
+    margin: 0;
+}
+
+.product_name {
+    margin: 0;
+}
+
+footer {
+    background-color: #e1e1e0;
+    padding: 30px 0 20px 10px;
+}

@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final project</title>
+    <link href="main_style.css" rel="stylesheet">
+    <link rel="icon" type="image/x-icon" href="pictures/logo.png">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+<body>
+    <div style="position: sticky; top: 0; z-index: 2;">
+        <nav>
+            <div style="display: flex; justify-content: start; align-items: center;">
+                <img src="pictures/logo.png" height="50px" width="50px">
+
+                <h3>MUSICSPOT</h3>
+                
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#instruments">INSTRUMENTS</a></li>
+                    <li><a href="#musicians">MUSICIANS</a></li>
+                    <li><a href="#about">ABOUT</a></li>
+                </ul>
+            </div>
+
+            <div style="color: black;">
+                <a href="#!"><div class="material-symbols-outlined">language</div></a>
+                <a href="#!"><div class="material-symbols-outlined">shopping_cart</div></a>
+                <a href="#!"><div class="material-symbols-outlined">account_circle</div></a>
+            </div>
+        </nav>
+    </div>
+
+    <div class="hero_section" id="home">
+        <header>
+            <div class="header_content">
+                <h1><span>MUSIC</span> can change the <span>WORLD!</span></h1>
+                
+                <p>Learn about musical intruments, musicians, etc.</p>
+
+                <br/>
+                <a class="discover" href="#instruments">Discover now!</a>
+            </div>
+        </header>
+    </div>
+
+    <div class="point_down">⌄</div>
+    <br/>
+    <hr width="150px"/>
+
+    <div class="musical_instruments" id="instruments">
+        <div class="instruments_content">
+            <div style="margin: 80px 0;">
+                <h2>There are around <span style="font-size: 65px;">1,500</span> different musical instruments worldwide</h2>
+                <p>And they are separated into 4 large groups</p>
+            </div>
+
+            <div class="group_cards">
+                <a href="string.html" class="group" target="_blank">
+                    <div>
+                        <img src="pictures/string.jpg">
+                        <h2>String</h2>
+
+                        <p>Musical instruments that produces sound by means of vibrating strings such as violin, cello, double bass, harp...</p>
+                    </div>
+                </a>
+
+                <a href="woodwind.html" class="group" target="_blank">
+                    <div>
+                        <img src="pictures/woodwind.jpg">
+                        <h2>Woodwind</h2>
+
+                        <p>Wind instruments which are characterised by their narrow cylinders or pipes, with holes, an opening at the bottom end and a mouthpiece at the top, including flute, saxuphone, basson... </p>
+                    </div>
+                </a>
+
+                <a href="brass.html" class="group" target="_blank">
+                    <div>
+                        <img src="pictures/brass.jpg">
+                        <h2>Brass</h2>
+
+                        <p>Wind instruments which are characterised by their long pipes that widen at their ends into a bell-like shape including trumpet, trumbone, tuba...</p>
+                    </div>
+                </a>
+
+                <a href="percussion.html" class="group" target="_blank">
+                    <div>
+                        <img src="pictures/percussion.jpg">
+                        <h2>Percussion</h2>
+
+                        <p>Musical instrument sounded by striking, shaking, or scraping, such as piano, triangle, cymbal, drums...</p>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+
+    <br/>
+    <hr style="border: 1px rgb(224, 222, 225), dashed;  margin-bottom: -20px;"/>
+
+    <div class="musicians" id="musicians">
+        <p style="font-size: 20px;">Meet the</p>
+        <h1 class="gradient_text" style="font-size: 78px; margin-top: 0;">MUSICIANS</h1>
+
+        <div class="music_block">
+
+            <div class="musician">
+                <img src="pictures/chopin.jpg" alt="Chopin">
+
+                <div class="content">
+                    <div class="material-symbols-outlined">more_horiz</div>
+                    
+                    <h1 class="content_title">Frédéric Chopin</h1>
+                    <p class="content_sub">(1810 ~ 1849)</p>
+                </div>
+            </div>
+
+            <div class="musician">
+                <img src="pictures/tchaikovsky.jpg" alt="Tchaikovsky">
+
+                <div class="content">
+                    <div class="material-symbols-outlined">more_horiz</div>
+                    
+                    <h1 class="content_title">Pyotr Ilyich Tchaikovsky</h1>
+                    <p class="content_sub">(1840 ~ 1893)</p>
+                </div>
+            </div>
+
+            <div class="musician">
+                <img src="pictures/Beethoven.jpg" alt="Beethoven">
+
+                <div class="content">
+                    <div class="material-symbols-outlined">more_horiz</div>
+                    
+                    <h1 class="content_title">Ludwig van Beethoven</h1>
+                    <p class="content_sub">(1770 ~ 1827)</p>
+                </div>
+            </div>
+
+            <div class="musician">
+                <img src="pictures/Vivaldi.jpg" alt="Vivaldi">
+
+                <div class="content">
+                    <div class="material-symbols-outlined">more_horiz</div>
+                    
+                    <h1 class="content_title">Antonio Vivaldi</h1>
+                    <p class="content_sub">(1678 ~ 1741)</p>
+                </div>
+            </div>
+
+            <div class="musician">
+                <img src="pictures/liszt.jpg" alt="Liszt">
+
+                <div class="content">
+                    <div class="material-symbols-outlined">more_horiz</div>
+                    
+                    <h1 class="content_title">Franz Liszt</h1>
+                    <p class="content_sub">(1811 ~ 1886)</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="button">
+            <a class="book_store" href="#!"><div>Click here to learn more through their pieces!</div></a>
+        </div>
+    </div>
+
+    <hr style="border: 1px rgb(224, 222, 225), dashed; margin-top: -50px; margin-bottom: 80px;"/>
+
+    <div id="about">
+        <h1 style="font-size: 50px;"><span>About</span> us</h1>
+
+        <p>
+            Began since 1941 on Neptune,<br/>
+            Musicspot is a Universal company which aims to encourage humans in seeking depths within musical areas.<br/>
+            All musical instruments are guaranteed to be imported from Saturn.
+        </p>
+    </div>
+
+    <footer>
+        <address>
+            <b>address:</b> 16 Ipsum street, Neptune<br/>
+            <b>phone:</b> +012 345 6789<br/>
+            <b>email:</b> musicspot@example.com
+        </address>
+        <p>copyright &copy;2024 MusicSpot</p>
+    </footer>
+</body>
+</html>
